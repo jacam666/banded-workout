@@ -1,0 +1,10 @@
+.header-container {
+    display: flex;
+}
+
+.header {
+    font-size: 3rem;
+    margin: 0 auto;
+    justify-content: center;
+    margin: auto;
+}

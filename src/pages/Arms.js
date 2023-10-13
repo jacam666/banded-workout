@@ -2,7 +2,11 @@ import React from 'react'
 
 function Arms() {
     return (
-        <div>Arms</div>
+        <div>
+            <div>Arms</div>
+        </div>
+
+
     )
 }
 

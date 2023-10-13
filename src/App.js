@@ -1,11 +1,26 @@
 import './App.css';
+// import Header from './Components/Header';
+import Arms from './pages/Arms';
+import Chest from './pages/Chest';
+import Legs from './pages/Legs';
+import Back from './pages/Back';
+import Shoulders from './pages/Shoulders';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import CustomNavbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <h1>Claire's Banded Workouts</h1>
-      </div>
+      <CustomNavbar />
+      <Routes>
+        <Route path='/Home' element={<Home />}/>
+            <Route path='/Arms' element={<Arms />}/>
+            <Route path='/Chest' element={<Chest />}/>
+            <Route path='/Legs' element={<Legs />}/>
+            <Route path='/Back' element={<Back />}/>
+            <Route path='/Shoulders' element={<Shoulders />}/>
+        </Routes>
     </div>
   );
 }
