@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Montserrat:wght@100;400&display=swap');
 
-.header-container {
-    display: flex;
-}
-
-.header {
-    font-size: 3rem;
+.homepage-header {
+    font-size: 2rem;
     margin: 0 auto;
+    display: flex;
     justify-content: center;
     margin: auto;
     font-family: 'Bigelow Rules', serif;

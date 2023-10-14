@@ -1,0 +1,17 @@
+.arm-page-header{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+/* .card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px; 
+} */
+
+.arms-images {
+    height: 70%;
+}
+
+

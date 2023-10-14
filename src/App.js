@@ -1,5 +1,4 @@
 import './App.css';
-// import Header from './Components/Header';
 import Arms from './pages/Arms';
 import Chest from './pages/Chest';
 import Legs from './pages/Legs';
@@ -14,7 +13,7 @@ function App() {
     <div className="App">
       <CustomNavbar />
       <Routes>
-        <Route path='/Home' element={<Home />}/>
+        <Route path='/' element={<Home />}/>
             <Route path='/Arms' element={<Arms />}/>
             <Route path='/Chest' element={<Chest />}/>
             <Route path='/Legs' element={<Legs />}/>
