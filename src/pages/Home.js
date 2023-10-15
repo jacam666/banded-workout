@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../Components/Header'
+//import Header from '../Components/Header'
 import "../styles/Homepage.css"
 
 
 function Home() {
     return (
         <div className='homepage-container'>
-            <Header />
+            {/* <Header /> */}
             <h1 className='homepage-header'>
                 Get off your ass and train
             </h1>

@@ -5,7 +5,7 @@ import '../styles/BackPage.css'
 
 function Back() {
     return (
-        <div className='arm-container'>
+        <div className='back-container'>
             <div className='back-page-header'>Back</div>
             <div className='card-container row' >
                 <div className='col-lg-3 col-md-4 col-sm-6'>

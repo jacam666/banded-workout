@@ -5,7 +5,7 @@ import '../styles/LegPage.css'
 
 function Legs() {
     return (
-        <div className='arm-container'>
+        <div className='leg-container'>
             <div className='leg-page-header'>Legs</div>
             <div className='card-container row' >
                 <div className='col-lg-3 col-md-4 col-sm-6'>

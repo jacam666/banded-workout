@@ -5,7 +5,7 @@ import '../styles/ChestPage.css'
 
 function Chest() {
     return (
-        <div className='arm-container'>
+        <div className='chest-container'>
             <div className='chest-page-header'>Chest</div>
             <div className='card-container row' >
                 <div className='col-lg-3 col-md-4 col-sm-6'>
