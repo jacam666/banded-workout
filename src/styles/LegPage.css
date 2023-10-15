@@ -5,8 +5,10 @@
     justify-content: center;
     font-family: 'Bigelow Rules', serif, 'Montserrat', sans-serif;
     font-size: 7rem;
-    color: rgb(18, 18, 18);
+    color: rgb(17, 17, 17);
     font-weight: 700;
+    margin-left: 95px;
+    /* background-color: rgba(0,0,0,0.25); */
 
 }
 .leg-images {
@@ -15,7 +17,7 @@
 
 .leg-container {
     background-image: url('../../public/images/Legs/leg page background image.jpg');
-    background-size: contain;
+    background-size: auto;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;

@@ -4,9 +4,11 @@
     display: flex;
     justify-content: center;
     font-size: 7rem;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: rgba(251, 248, 248);
     font-weight: 700;
     font-family: 'Bigelow Rules', serif, 'Montserrat', sans-serif;
+    background-color: rgba(0,0,0,0.2);
 
 }
 .shoulder-images {

@@ -10,6 +10,9 @@
 .chest-images {
     height: 70%;
 }
+/* .card {
+    height: 250px !important;
+} */
 
 .chest-container {
     background-image: url('../../public/images/Chest/chest page background image.jpg');

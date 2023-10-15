@@ -13,7 +13,9 @@
 .back-images {
     height: 70%;
 }
-
+.Card {
+    margin-top: 10px;
+}
 .back-container {
     background-image: url('../../public/images/Back/back page background image.jpg');
     background-size: cover;
