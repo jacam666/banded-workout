@@ -10,7 +10,7 @@ function Legs() {
             <div className='card-container row' >
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill" >
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='leg-images' variant="top" src="/images/Legs/legs pull through.png" />
                             <Card.Body>
                                 <Card.Title>Pull-through</Card.Title>
@@ -24,7 +24,7 @@ function Legs() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='leg-images' variant="top" src="/images/Legs/legs abduction.png" />
                             <Card.Body>
                                 <Card.Title>Abduction</Card.Title>
@@ -38,7 +38,7 @@ function Legs() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='leg-images' variant="top" src="/images/Legs/legs adduction.png" />
                             <Card.Body>
                                 <Card.Title>Adduction</Card.Title>
@@ -52,7 +52,7 @@ function Legs() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='leg-images' variant="top" src="/images/Legs/legs extension.png" />
                             <Card.Body>
                                 <Card.Title>Extension</Card.Title>

@@ -12,7 +12,7 @@ function Arms() {
             <div className='card-container row' >
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill" >
+                        <Card className="flex-fill" style={{ opacity: 0.9 }} >
                             <Card.Img className='arms-images' variant="top" src="/images/Arms/triceps kickbacks.png" />
                             <Card.Body>
                                 <Card.Title>Tricep Kick Backs</Card.Title>
@@ -26,7 +26,7 @@ function Arms() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='arms-images' variant="top" src="/images/Arms/reverse pushdowns.png" />
                             <Card.Body>
                                 <Card.Title>Reverse Pushdowns</Card.Title>
@@ -40,7 +40,7 @@ function Arms() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='arms-images' variant="top" src="/images/Arms/arms pushdowns_edited.jpg" />
                             <Card.Body>
                                 <Card.Title>Tricep Pushdowns</Card.Title>
@@ -54,7 +54,7 @@ function Arms() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='arms-images' variant="top" src="/images/Arms/bicep curl.png" />
                             <Card.Body>
                                 <Card.Title>Bicep Curl</Card.Title>

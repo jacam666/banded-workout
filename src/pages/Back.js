@@ -10,7 +10,7 @@ function Back() {
             <div className='card-container row' >
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill" >
+                        <Card className="flex-fill" style={{ opacity: 0.9 }} >
                             <Card.Img className='back-images' variant="top" src="/images/Back/back pulldown.png" />
                             <Card.Body>
                                 <Card.Title>Pull Down</Card.Title>
@@ -24,7 +24,7 @@ function Back() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back row.png" />
                             <Card.Body>
                                 <Card.Title>Row</Card.Title>
@@ -38,7 +38,7 @@ function Back() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back reverse row.png" />
                             <Card.Body>
                                 <Card.Title>Reverse Row</Card.Title>
@@ -52,7 +52,7 @@ function Back() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back single row.png" />
                             <Card.Body>
                                 <Card.Title>Alternating Row</Card.Title>
@@ -66,7 +66,7 @@ function Back() {
                 </div>
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back one arm row.png" />
                             <Card.Body>
                                 <Card.Title>One Arm Row</Card.Title>
