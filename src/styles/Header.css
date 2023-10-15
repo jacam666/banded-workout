@@ -5,11 +5,13 @@
 }
 
 .header {
-    font-size: 3rem;
+    font-size: 7rem;
     margin: 0 auto;
     justify-content: center;
     margin: auto;
-    font-family: 'Bigelow Rules', serif;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Bigelow Rules', serif;
+    font-family: 'Montserrat', sans-serif; */
+    font-family: 'Bigelow Rules', serif, 'Montserrat', sans-serif; /* Use a comma to separate font families */
+    font-weight: 700;
     font-weight: 700;
 }
