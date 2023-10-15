@@ -1,10 +1,8 @@
-.arm-page-header{
+.leg-page-header{
     display: flex;
     justify-content: center;
     font-size: 50px;
 }
-.arms-images {
+.leg-images {
     height: 70%;
 }
-
-

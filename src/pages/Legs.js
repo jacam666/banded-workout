@@ -1,17 +1,19 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import '../styles/LegPage.css'
+
 
 function Legs() {
     return (
         <div className='arm-container'>
-            <div className='arm-page-header'>Legs</div>
+            <div className='leg-page-header'>Legs</div>
             <div className='card-container row' >
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill" >
-                            <Card.Img className='arms-images' variant="top" src="/images/Arms/triceps kickbacks.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs pull through.png" />
                             <Card.Body>
-                                <Card.Title>Tricep Kick Backs</Card.Title>
+                                <Card.Title>Pull-through</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -23,9 +25,9 @@ function Legs() {
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill">
-                            <Card.Img className='arms-images' variant="top" src="/images/Arms/reverse pushdowns.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs abduction.png" />
                             <Card.Body>
-                                <Card.Title>Reverse Pushdowns</Card.Title>
+                                <Card.Title>Abduction</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -37,9 +39,9 @@ function Legs() {
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill">
-                            <Card.Img className='arms-images' variant="top" src="/images/Arms/arms pushdowns_edited.jpg" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs adduction.png" />
                             <Card.Body>
-                                <Card.Title>Tricep Pushdowns</Card.Title>
+                                <Card.Title>Adduction</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -51,9 +53,9 @@ function Legs() {
                 <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill">
-                            <Card.Img className='arms-images' variant="top" src="/images/Arms/bicep curl.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs extension.png" />
                             <Card.Body>
-                                <Card.Title>Bicep Curl</Card.Title>
+                                <Card.Title>Extension</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
