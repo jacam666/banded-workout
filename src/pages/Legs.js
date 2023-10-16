@@ -11,9 +11,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs pull through.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs standing knee raise.png" />
                             <Card.Body>
-                                <Card.Title>Pull-through</Card.Title>
+                                <Card.Title>Standing Knee Raise</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -25,7 +25,7 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs abduction.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs abduction2.png" />
                             <Card.Body>
                                 <Card.Title>Abduction</Card.Title>
                                 <Card.Text>
@@ -39,7 +39,7 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs adduction.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs adduction2.png" />
                             <Card.Body>
                                 <Card.Title>Adduction</Card.Title>
                                 <Card.Text>
@@ -53,9 +53,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs extension.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs lying hamstring curl.png" />
                             <Card.Body>
-                                <Card.Title>Extension</Card.Title>
+                                <Card.Title>Lying Hamstring Curl</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -67,7 +67,7 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs squats.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs squats2.png" />
                             <Card.Body>
                                 <Card.Title>Squats</Card.Title>
                                 <Card.Text>
@@ -81,7 +81,7 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs donkey kicks.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs donkey kicks2.png" />
                             <Card.Body>
                                 <Card.Title>Donkey Kicks</Card.Title>
                                 <Card.Text>
@@ -95,9 +95,37 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs side lunge.png" />
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs banded lunge.png" />
                             <Card.Body>
-                                <Card.Title>Side Lunge</Card.Title>
+                                <Card.Title>Banded Lunge</Card.Title>
+                                <Card.Text>
+
+                                </Card.Text>
+                                {/* <Button variant="primary">Go somewhere</Button> */}
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </div>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
+                    <div className="d-flex flex-column h-100">
+                        <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs calf raises.png" />
+                            <Card.Body>
+                                <Card.Title>Calf Raises</Card.Title>
+                                <Card.Text>
+
+                                </Card.Text>
+                                {/* <Button variant="primary">Go somewhere</Button> */}
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </div>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
+                    <div className="d-flex flex-column h-100">
+                        <Card className="flex-fill mt-4" style={{ opacity: 0.9 }}>
+                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs reverse lunge.png" />
+                            <Card.Body>
+                                <Card.Title>Reverse Lunge</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
