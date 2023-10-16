@@ -1,7 +1,7 @@
 .chest-page-header{
     display: flex;
     justify-content: center;
-    color: rgb(17, 16, 16);
+    color: whitesmoke;
     font-size: 7rem;
     font-weight: 700;
     font-family: 'Bigelow Rules', serif, 'Montserrat', sans-serif;
@@ -15,7 +15,7 @@
 } */
 
 .chest-container {
-    background-image: url('../../public/images/Chest/chest page background image.jpg');
+    background-image: url('../../public/images/Chest/chest background image.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

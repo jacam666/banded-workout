@@ -73,6 +73,19 @@ function Chest() {
                                 <Card.Text>
 
                                 </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </div>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
+                    <div className="d-flex flex-column h-100">
+                        <Card className="flex-fill" style={{ opacity: 0.9 }}>
+                            <Card.Img className='chest-images' variant="top" src="/images/Chest/chest bodyweight push ups.png" />
+                            <Card.Body>
+                                <Card.Title>BodyWeight Push Up</Card.Title>
+                                <Card.Text>
+
+                                </Card.Text>
                                 {/* <Button variant="primary">Go somewhere</Button> */}
                             </Card.Body>
                         </Card>
