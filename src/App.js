@@ -7,6 +7,7 @@ import Shoulders from './pages/Shoulders';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import CustomNavbar from './Components/Navbar';
+import Abs from './pages/Abs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
             <Route path='/Arms' element={<Arms />}/>
+            <Route path='/Abs' element={<Abs />}/>
             <Route path='/Chest' element={<Chest />}/>
             <Route path='/Legs' element={<Legs />}/>
             <Route path='/Back' element={<Back />}/>

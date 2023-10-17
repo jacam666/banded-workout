@@ -12,7 +12,8 @@ function CustomNavbar() {
                     <Link className='exercise-links' to="/Chest">Chest</Link>
                     <Link className='exercise-links' to="/Legs">Legs</Link>
                     <Link className='exercise-links' to="/Back">Back</Link>
-                    <Link className='exercise-links' id='shoulder-link' to="/Shoulders">Shoulders</Link>
+                    <Link className='exercise-links' to="/Shoulders">Shoulders</Link>
+                    <Link className='exercise-links' id='abs-link' to="/Abs">Abs</Link>
                 </Container>
             </Navbar>
     );

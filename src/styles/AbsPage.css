@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Montserrat:wght@100;400&display=swap');
 
 
-.back-page-header{
+.abs-page-header{
     display: flex;
     justify-content: center;
     font-size: 7rem;
@@ -10,13 +10,13 @@
     font-family: 'Bigelow Rules', serif, 'Montserrat', sans-serif; /* Use a comma to separate font families */
 
 }
-.back-images {
+.abs-images {
     height: 70%;
 }
 .Card {
     margin-top: 10px;
 }
-.back-container {
+.abs-container {
     background-image: url('../../public/images/Back/back page background image.jpg');
     background-size: cover;
     background-position: center;
