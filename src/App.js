@@ -6,13 +6,15 @@ import Back from './pages/Back';
 import Shoulders from './pages/Shoulders';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import CustomNavbar from './Components/Navbar';
+//import CustomNavbar from './Components/Navbar';
 import Abs from './pages/Abs';
+import ResponsiveNavbar from './Components/ResponsiveNavbar';
 
 function App() {
   return (
     <div className="App">
-      <CustomNavbar />
+      {/* <CustomNavbar /> */}
+      <ResponsiveNavbar />
       <Routes>
         <Route path='/' element={<Home />}/>
             <Route path='/Arms' element={<Arms />}/>
