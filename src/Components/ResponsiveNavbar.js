@@ -130,7 +130,7 @@ export default function ResponsiveNavbar() {
                     aria-controls='navbarSupportedContent'
                     aria-expanded='false'
                     aria-label='Toggle navigation'
-                    onClick={() => setShowBasic(!showBasic)}
+                    onClick={() => setShowBasic(!showBasic)} 
                 >
                     <MDBIcon icon='bars' fas />
                 </MDBNavbarToggler>
