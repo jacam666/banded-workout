@@ -21,3 +21,8 @@
     background-attachment: fixed;
     height: 100vh;
 }
+
+.bodyweight-chest-link {
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+}

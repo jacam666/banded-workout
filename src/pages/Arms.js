@@ -10,23 +10,23 @@ function Arms() {
             <div className='card-container row justify-content-evenly' >
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        {/* <Link to={"/ResistanceBandArms"}> */}
-                        <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
-                            <Card.Img className='card-arms-images' variant="top" src="/images/Arms/arms banded card image.jpg" />
-                            <Card.Body>
-                                <Card.Title>Resistance Band Arm Exercises</Card.Title>
-                                <Card.Text>
+                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
+                                <Card.Img className='card-arms-images' variant="top" src="/images/Arms/arms banded card image.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Resistance Band Arm Exercises</Card.Title>
+                                    <Card.Text>
 
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                        {/* </Link> */}
+                                    </Card.Text>
+                                    {/* <Button variant="primary">Go somewhere</Button> */}
+                                </Card.Body>
+                            </Card>
+                        </Link>
                     </div>
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Link to={"/ResistanceBandArms"}>
+                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-arms-images' variant="top" src="/images/Arms/arms dumbbell card image.jpeg" />
                                 <Card.Body>
@@ -42,19 +42,18 @@ function Arms() {
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-
-                        <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
-                            <Card.Img className='card-arms-images' variant="top" src="/images/Arms/arms bodyweight card image.webp" />
-                            <Card.Body>
-                                <Link to={"/ResistanceBandArms"}>
+                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
+                                <Card.Img className='card-arms-images' variant="top" src="/images/Arms/arms bodyweight card image2.jpg" />
+                                <Card.Body>
                                     <Card.Title>BodyWeight Arm Exercises</Card.Title>
-                                </Link>
-                                <Card.Text>
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
+                                    <Card.Text>
 
+                                    </Card.Text>
+                                    {/* <Button variant="primary">Go somewhere</Button> */}
+                                </Card.Body>
+                            </Card>
+                        </Link>
                     </div>
                 </div>
             </div>

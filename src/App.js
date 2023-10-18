@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Abs from './pages/Abs';
 import ResponsiveNavbar from './Components/ResponsiveNavbar';
 import ResistanceBandArms from './pages/ResistanceBandArms';
+import ResistanceBandChest from './pages/ResistanceBandChest';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/ResistanceBandArms' element={<ResistanceBandArms />}/>
             <Route path='/Abs' element={<Abs />}/>
             <Route path='/Chest' element={<Chest />}/>
+            <Route path='/ResistanceBandChest' element={<ResistanceBandChest />}/>
             <Route path='/Legs' element={<Legs />}/>
             <Route path='/Back' element={<Back />}/>
             <Route path='/Shoulders' element={<Shoulders />}/>
