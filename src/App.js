@@ -9,6 +9,7 @@ import Home from './pages/Home';
 //import CustomNavbar from './Components/Navbar';
 import Abs from './pages/Abs';
 import ResponsiveNavbar from './Components/ResponsiveNavbar';
+import ResistanceBandArms from './pages/ResistanceBandArms';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
             <Route path='/Arms' element={<Arms />}/>
+            <Route path='/ResistanceBandArms' element={<ResistanceBandArms />}/>
             <Route path='/Abs' element={<Abs />}/>
             <Route path='/Chest' element={<Chest />}/>
             <Route path='/Legs' element={<Legs />}/>

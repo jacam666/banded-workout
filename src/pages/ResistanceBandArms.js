@@ -1,19 +1,17 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-import '../styles/LegPage.css'
 
-
-function Legs() {
+function ResistanceBandArms() {
     return (
-        <div className='leg-container'>
-            <div className='leg-page-header'>Legs</div>
+        <div className='arm-container'>
+            <div className='arm-page-header'>Arms</div>
             <div className='card-container row justify-content-evenly' >
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs standing knee raise.png" />
+                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }} >
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/triceps kickbacks.png" />
                             <Card.Body>
-                                <Card.Title>Standing Knee Raise</Card.Title>
+                                <Card.Title>Tricep Kick Backs</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -25,9 +23,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs abduction2.png" />
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/reverse pushdowns.png" />
                             <Card.Body>
-                                <Card.Title>Abduction</Card.Title>
+                                <Card.Title>Reverse Pushdowns</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -39,9 +37,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs adduction2.png" />
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms pushdowns_edited.jpg" />
                             <Card.Body>
-                                <Card.Title>Adduction</Card.Title>
+                                <Card.Title>Tricep Pushdowns</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -53,9 +51,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs lying hamstring curl.png" />
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/bicep curl.png" />
                             <Card.Body>
-                                <Card.Title>Lying Hamstring Curl</Card.Title>
+                                <Card.Title>Bicep Curl</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -67,9 +65,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs squats2.png" />
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms over head tricep extensions.png" />
                             <Card.Body>
-                                <Card.Title>Squats</Card.Title>
+                                <Card.Title>Tricep Extensions</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -81,9 +79,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs donkey kicks2.png" />
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms hammer curls.png" />
                             <Card.Body>
-                                <Card.Title>Donkey Kicks</Card.Title>
+                                <Card.Title>Hammer Curls</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -95,9 +93,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs banded lunge.png" />
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms tricep dip.png" />
                             <Card.Body>
-                                <Card.Title>Banded Lunge</Card.Title>
+                                <Card.Title>Tricep Dip</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -109,23 +107,9 @@ function Legs() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs calf raises.png" />
+                            <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms lying banded tricep extension.png" />
                             <Card.Body>
-                                <Card.Title>Calf Raises</Card.Title>
-                                <Card.Text>
-
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs reverse lunge.png" />
-                            <Card.Body>
-                                <Card.Title>Reverse Lunge</Card.Title>
+                                <Card.Title>Lying Banded Tricep Extension</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
@@ -139,4 +123,4 @@ function Legs() {
     )
 }
 
-export default Legs
+export default ResistanceBandArms
