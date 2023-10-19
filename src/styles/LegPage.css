@@ -23,6 +23,11 @@
     /* height: 100vh; */
 }
 
+.bodyweight-leg-link {
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+}
+
 .main-page-leg-container {
     background-image: url('../../public/images/Legs/legs main page imagejpeg.jpeg');
     background-size: cover;

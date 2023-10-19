@@ -10,7 +10,7 @@ function Legs() {
             <div className='card-container row justify-content-evenly' >
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                        <Link className='bodyweight-leg-link' to={"/ResistanceBandLegs"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-legs-images' variant="top" src="/images/Legs/legs banded card image.jpg" />
                                 <Card.Body>
@@ -26,7 +26,7 @@ function Legs() {
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                        <Link className='bodyweight-leg-link' to={"/ResistanceBandLegs"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-legs-images' variant="top" src="/images/Legs/legs dumbbell card image.jpg" />
                                 <Card.Body>
@@ -42,7 +42,7 @@ function Legs() {
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                        <Link className='bodyweight-leg-link' to={"/ResistanceBandLegs"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-legs-images' variant="top" src="/images/Legs/legs bodyweight card image.jpg" />
                                 <Card.Body>
