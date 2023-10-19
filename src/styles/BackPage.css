@@ -22,3 +22,19 @@
     background-position: center;
     background-attachment: fixed;
 }
+.main-page-back-container {
+    background-image: url('../../public/images/Back/back main page backgroung image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.bodyweight-back-link {
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+}
+
+.back-card-container {
+    
+}

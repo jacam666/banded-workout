@@ -22,3 +22,14 @@
     background-attachment: fixed;
     /* height: 100vh; */
 }
+.main-page-shoulder-container {
+    background-image: url('../../public/images/Shoulders/shoulders main page image.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.bodyweight-shoulder-link {
+    text-decoration: none;
+}
