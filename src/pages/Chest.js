@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Chest() {
     return (
-        <div className='main-page-arm-container'>
+        <div className='main-page-chest-container'>
             <div className='card-container row justify-content-evenly' >
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">

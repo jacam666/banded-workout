@@ -26,3 +26,11 @@
     text-decoration: none;
     color: rgb(13, 13, 13);
 }
+
+.main-page-chest-container {
+    background-image: url('../../public/images/Chest/chest main page background image.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}

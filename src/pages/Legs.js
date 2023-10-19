@@ -1,137 +1,59 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import '../styles/LegPage.css'
+import { Link } from 'react-router-dom';
 
 
 function Legs() {
     return (
-        <div className='leg-container'>
-            <div className='leg-page-header'>Legs</div>
+        <div className='main-page-leg-container'>
             <div className='card-container row justify-content-evenly' >
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs standing knee raise.png" />
-                            <Card.Body>
-                                <Card.Title>Standing Knee Raise</Card.Title>
-                                <Card.Text>
+                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
+                                <Card.Img className='card-legs-images' variant="top" src="/images/Legs/legs banded card image.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Resistance Band Leg Exercises</Card.Title>
+                                    <Card.Text>
 
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
+                                    </Card.Text>
+                                    {/* <Button variant="primary">Go somewhere</Button> */}
+                                </Card.Body>
+                            </Card>
+                        </Link>
                     </div>
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs abduction2.png" />
-                            <Card.Body>
-                                <Card.Title>Abduction</Card.Title>
-                                <Card.Text>
+                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
+                                <Card.Img className='card-legs-images' variant="top" src="/images/Legs/legs dumbbell card image.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Dumbbell Leg Exercises</Card.Title>
+                                    <Card.Text>
 
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
+                                    </Card.Text> 
+                                    {/* <Button variant="primary">Go somewhere</Button> */}
+                                </Card.Body>
+                            </Card>
+                        </Link>
                     </div>
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs adduction2.png" />
-                            <Card.Body>
-                                <Card.Title>Adduction</Card.Title>
-                                <Card.Text>
+                        <Link className='bodyweight-arm-link' to={"/ResistanceBandArms"}>
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
+                                <Card.Img className='card-legs-images' variant="top" src="/images/Legs/legs bodyweight card image.jpg" />
+                                <Card.Body>
+                                    <Card.Title>BodyWeight Leg Exercises</Card.Title>
+                                    <Card.Text>
 
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs lying hamstring curl.png" />
-                            <Card.Body>
-                                <Card.Title>Lying Hamstring Curl</Card.Title>
-                                <Card.Text>
-
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs squats2.png" />
-                            <Card.Body>
-                                <Card.Title>Squats</Card.Title>
-                                <Card.Text>
-
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs donkey kicks2.png" />
-                            <Card.Body>
-                                <Card.Title>Donkey Kicks</Card.Title>
-                                <Card.Text>
-
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs banded lunge.png" />
-                            <Card.Body>
-                                <Card.Title>Banded Lunge</Card.Title>
-                                <Card.Text>
-
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs calf raises.png" />
-                            <Card.Body>
-                                <Card.Title>Calf Raises</Card.Title>
-                                <Card.Text>
-
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column h-100">
-                        <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='leg-images' variant="top" src="/images/Legs/legs reverse lunge.png" />
-                            <Card.Body>
-                                <Card.Title>Reverse Lunge</Card.Title>
-                                <Card.Text>
-
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
-                            </Card.Body>
-                        </Card>
+                                    </Card.Text>
+                                    {/* <Button variant="primary">Go somewhere</Button> */}
+                                </Card.Body>
+                            </Card>
+                        </Link>
                     </div>
                 </div>
             </div>
