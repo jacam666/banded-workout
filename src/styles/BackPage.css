@@ -27,6 +27,9 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
@@ -36,5 +39,5 @@
 }
 
 .back-card-container {
-    
+
 }
