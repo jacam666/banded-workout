@@ -14,6 +14,7 @@ import ResistanceBandChest from './pages/ResistanceBandChest';
 import ResistanceBandLegs from './pages/ResistanceBandLegs';
 import ResistanceBandBack from './pages/ResistanceBandBack';
 import ResistanceBandShoulders from './pages/ResistanceBandShoulders';
+import ResistanceBandAbs from './pages/ResistanceBandAbs';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/Arms' element={<Arms />}/>
             <Route path='/ResistanceBandArms' element={<ResistanceBandArms />}/>
             <Route path='/Abs' element={<Abs />}/>
+            <Route path='/ResistanceBandAba' element={<ResistanceBandAbs />}/>
             <Route path='/Chest' element={<Chest />}/>
             <Route path='/ResistanceBandChest' element={<ResistanceBandChest />}/>
             <Route path='/Legs' element={<Legs />}/>

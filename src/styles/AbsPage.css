@@ -22,3 +22,14 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.main-page-abs-container {
+    background-image: url('../../public/images/Abs/abs main page abs image3.jpeg');
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
