@@ -122,7 +122,7 @@ export default function ResponsiveNavbar() {
     const [showBasic, setShowBasic] = useState(false);
 
     return (
-        <MDBNavbar expand='lg' light bgColor='light'>
+        <MDBNavbar className='navbar-container' expand='lg' light bgColor='light'>
             <MDBContainer fluid>
                 <MDBNavbarBrand href='/'>Claire's Workouts</MDBNavbarBrand>
 

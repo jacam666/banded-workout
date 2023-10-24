@@ -17,3 +17,10 @@
 #abs-link {
     border-right: none;
 }
+
+
+/* @media screen and (max-width: 575px) {
+    .navbar-container {
+        margin-bottom: 40px;
+    }
+} */

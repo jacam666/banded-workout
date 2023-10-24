@@ -11,7 +11,7 @@ function Chest() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-chest-link' to={"/ResistanceBandChest"}>
-                            <Card className="flex-fill" style={{ opacity: 0.9 }} >
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-arms-images' variant="top" src="/images/Chest/chest banded card image.jpg" />
                                 <Card.Body>
                                     <Card.Title>Resistance Band Chest Exercises</Card.Title>
@@ -27,7 +27,7 @@ function Chest() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-chest-link' to={"/ResistanceBandChest"}>
-                            <Card className="flex-fill" style={{ opacity: 0.9 }} >
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-arms-images' variant="top" src="/images/Chest/chest dumbbell card image2.jpg" />
                                 <Card.Body>
                                     <Card.Title>Dumbbell Chest Exercises</Card.Title>
@@ -43,7 +43,7 @@ function Chest() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-chest-link' to={"/ResistanceBandChest"}>
-                            <Card className="flex-fill" style={{ opacity: 0.9 }} >
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-arms-images' variant="top" src="/images/Chest/chest bodyweight card image3.jpg" />
                                 <Card.Body>
                                     <Card.Title>BodyWeight Chest Exercises</Card.Title>

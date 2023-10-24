@@ -10,9 +10,6 @@
 .chest-images {
     height: 70%;
 }
-/* .card {
-    height: 250px !important;
-} */
 
 .chest-container {
     background-image: url('../../public/images/Chest/chest background image.jpeg');
@@ -35,5 +32,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+.card-container {
     height: 100vh;
 }

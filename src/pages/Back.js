@@ -8,10 +8,10 @@ function Back() {
     return (
         <div className='main-page-back-container'>
             <div className='card-container row justify-content-evenly' >
-                <div className='col-lg-2 col-md-4 col-sm-6 back-card-container'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-back-link' to={"/ResistanceBandBack"}>
-                            <Card className="flex-fill" style={{ opacity: 0.9 }} >
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-back-images' variant="top" src="/images/Back/back banded card image.jpeg" />
                                 <Card.Body>
                                     <Card.Title>Resistance Band Back Exercises</Card.Title>
@@ -27,7 +27,7 @@ function Back() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-back-link' to={"/ResistanceBandBack"}>
-                            <Card className="flex-fill" style={{ opacity: 0.9 }} >
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-back-images' variant="top" src="/images/Back/back dumbbell card image.jpeg" />
                                 <Card.Body>
                                     <Card.Title>Dumbbell Back Exercises</Card.Title>
@@ -43,7 +43,7 @@ function Back() {
                 <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-back-link' to={"/ResistanceBandBack"}>
-                            <Card className="back-cards flex-fill" style={{ opacity: 0.9 }} >
+                            <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
                                 <Card.Img className='card-back-images' variant="top" src="/images/Back/back back card image.jpeg" />
                                 <Card.Body>
                                     <Card.Title>BodyWeight Back Exercises</Card.Title>
