@@ -11,9 +11,9 @@ function Abs() {
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-abs-link' to={"/ResistanceBandAbs"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
-                                <Card.Img className='card-abs-images' variant="top" src="/images/Legs/legs banded card image.jpg" />
+                                <Card.Img className='card-abs-images' variant="top" src="/images/Abs/ab banded card image.jpeg" />
                                 <Card.Body>
-                                    <Card.Title>Resistance Band Leg Exercises</Card.Title>
+                                    <Card.Title>Resistance Band Ab Exercises</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>
@@ -27,9 +27,9 @@ function Abs() {
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-abs-link' to={"/ResistanceBandAbs"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
-                                <Card.Img className='card-abs-images' variant="top" src="/images/Legs/legs dumbbell card image.jpg" />
+                                <Card.Img className='card-abs-images' variant="top" src="/images/Abs/ab dumbbell card image.jpeg" />
                                 <Card.Body>
-                                    <Card.Title>Dumbbell Leg Exercises</Card.Title>
+                                    <Card.Title>Dumbbell Ab Exercises</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text> 
@@ -43,9 +43,9 @@ function Abs() {
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-abs-link' to={"/ResistanceBandAbs"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
-                                <Card.Img className='card-abs-images' variant="top" src="/images/Legs/legs bodyweight card image.jpg" />
+                                <Card.Img className='card-abs-images' variant="top" src="/images/Abs/abs bodyweight ab card image.jpeg" />
                                 <Card.Body>
-                                    <Card.Title>BodyWeight Leg Exercises</Card.Title>
+                                    <Card.Title>BodyWeight Ab Exercises</Card.Title>
                                     <Card.Text>
 
                                     </Card.Text>

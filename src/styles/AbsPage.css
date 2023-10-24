@@ -16,6 +16,9 @@
 .Card {
     margin-top: 10px;
 }
+.bodyweight-abs-link {
+    text-decoration: none;
+}
 .abs-container {
     background-image: url('../../public/images/Abs/abs background image.webp');
     background-size: cover;
