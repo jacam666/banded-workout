@@ -12,7 +12,7 @@ function Shoulders() {
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-shoulder-link' to={"/ResistanceBandShoulders"}>
                             <Card className="flex-fill mt-5" style={{ opacity: 0.9 }} >
-                                <Card.Img className='card-shoulder-images' variant="top" src="/images/Back/back banded card image.jpeg" />
+                                <Card.Img className='card-shoulder-images' variant="top" src="/images/Shoulders/shoulders banded card image.webp" />
                                 <Card.Body>
                                     <Card.Title>Resistance Band shoulder Exercises</Card.Title>
                                     <Card.Text>
@@ -44,7 +44,7 @@ function Shoulders() {
                     <div className="d-flex flex-column h-100">
                         <Link className='bodyweight-shoulder-link' to={"/ResistanceBandShoulders"}>
                             <Card className="back-cards flex-fill mt-5" style={{ opacity: 0.9 }} >
-                                <Card.Img className='card-shoulder-images' variant="top" src="/images/Back/back back card image.jpeg" />
+                                <Card.Img className='card-shoulder-images' variant="top" src="/images/Shoulders/shoulders bodyweight card image.jpeg" />
                                 <Card.Body>
                                     <Card.Title>BodyWeight shoulder Exercises</Card.Title>
                                     <Card.Text>

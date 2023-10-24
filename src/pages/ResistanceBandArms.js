@@ -1,12 +1,13 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 function ResistanceBandArms() {
     return (
         <div className='arm-container'>
             <div className='arm-page-header'>Arms</div>
             <div className='card-container row justify-content-evenly' >
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }} >
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/triceps kickbacks.png" />
@@ -15,12 +16,12 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/reverse pushdowns.png" />
@@ -29,12 +30,12 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms pushdowns_edited.jpg" />
@@ -43,12 +44,12 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button' >Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 '>
+                <div className='col-lg-2 col-md-4 col-sm-6 '>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/bicep curl.png" />
@@ -57,12 +58,12 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms over head tricep extensions.png" />
@@ -71,12 +72,12 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms hammer curls.png" />
@@ -85,12 +86,12 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms tricep dip.png" />
@@ -99,12 +100,12 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='resistance-band-arms-images' variant="top" src="/images/Arms/arms lying banded tricep extension.png" />
@@ -113,7 +114,7 @@ function ResistanceBandArms() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='arm-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>

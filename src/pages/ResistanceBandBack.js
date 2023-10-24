@@ -9,7 +9,7 @@ function ResistanceBandBack() {
             <div className='back-page-header'>Back</div>
             <div className='card-container row justify-content-evenly' >
                 <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}  >
                             <Card.Img className='back-images' variant="top" src="/images/Back/back pulldown.png" />
                             <Card.Body>
@@ -23,7 +23,7 @@ function ResistanceBandBack() {
                     </div>
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back row.png" />
                             <Card.Body>
@@ -37,7 +37,7 @@ function ResistanceBandBack() {
                     </div>
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back reverse row.png" />
                             <Card.Body>
@@ -51,7 +51,7 @@ function ResistanceBandBack() {
                     </div>
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back single row.png" />
                             <Card.Body>
@@ -65,7 +65,7 @@ function ResistanceBandBack() {
                     </div>
                 </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back one arm row.png" />
                             <Card.Body>
@@ -78,7 +78,7 @@ function ResistanceBandBack() {
                         </Card>
                     </div>
                 </div>
-                {/* <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back kneeling one arm row.png" />
@@ -91,9 +91,9 @@ function ResistanceBandBack() {
                             </Card.Body>
                         </Card>
                     </div>
-                </div> */}
+                </div>
                 <div className='col-lg-2 col-md-4 col-sm-6'>
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back kneeling lat pull down.png" />
                             <Card.Body>

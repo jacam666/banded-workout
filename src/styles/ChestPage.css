@@ -16,7 +16,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
 }
 
 .bodyweight-chest-link {
@@ -34,6 +33,5 @@
     align-items: center;
     height: 100vh;
 }
-.card-container {
-    height: 100vh;
-}
+
+

@@ -63,7 +63,7 @@ function ResistanceBandAbs() {
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6'>
+                <div className='col-lg-2 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='abs-images' variant="top" src="/images/Abs/abs bicycle crunches.png" />
