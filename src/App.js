@@ -17,6 +17,7 @@ import ResistanceBandShoulders from './pages/ResistanceBandShoulders';
 import ResistanceBandAbs from './pages/ResistanceBandAbs';
 import DumbbellArms from './pages/DumbbellArms';
 import BodyWeightArms from './pages/BodyWeightArms';
+import TrainingDiaryPage from './pages/TrainingDiaryPage';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <Route path='/ResistanceBandShoulders' element={<ResistanceBandShoulders />}/>
             <Route path='/Back' element={<Back />}/>
             <Route path='/ResistanceBandBack' element={<ResistanceBandBack />}/>
+            <Route path='/TrainingDiaryPage' element={<TrainingDiaryPage />}/>
         </Routes>
     </div>
   );
