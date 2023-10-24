@@ -34,4 +34,7 @@
     height: 100vh;
 }
 
-
+.chest-card-button {
+    background-color: black !important;
+    height: auto
+}

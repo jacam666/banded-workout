@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import Button from "react-bootstrap/Button"
 
 function ResistanceBandChest() {
     return (
@@ -15,7 +16,7 @@ function ResistanceBandChest() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='chest-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -29,7 +30,7 @@ function ResistanceBandChest() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='chest-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -43,7 +44,7 @@ function ResistanceBandChest() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='chest-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -57,7 +58,7 @@ function ResistanceBandChest() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='chest-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -71,6 +72,7 @@ function ResistanceBandChest() {
                                 <Card.Text>
 
                                 </Card.Text>
+                                <Button className='chest-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -84,7 +86,7 @@ function ResistanceBandChest() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='chest-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -98,7 +100,7 @@ function ResistanceBandChest() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='chest-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
