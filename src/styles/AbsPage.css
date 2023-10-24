@@ -43,3 +43,7 @@
 .resistance-ab-images {
     height: 50px;
 }
+
+.abs-card-button {
+    background-color: rgb(12, 12, 12) !important;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import Button from "react-bootstrap/Button"
 import '../styles/BackPage.css'
 
 
@@ -8,7 +9,7 @@ function ResistanceBandBack() {
         <div className='back-container'>
             <div className='back-page-header'>Back</div>
             <div className='card-container row justify-content-evenly' >
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}  >
                             <Card.Img className='back-images' variant="top" src="/images/Back/back pulldown.png" />
@@ -17,12 +18,12 @@ function ResistanceBandBack() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back row.png" />
@@ -31,12 +32,12 @@ function ResistanceBandBack() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back reverse row.png" />
@@ -45,12 +46,12 @@ function ResistanceBandBack() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back single row.png" />
@@ -59,12 +60,12 @@ function ResistanceBandBack() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back one arm row.png" />
@@ -73,12 +74,12 @@ function ResistanceBandBack() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back kneeling one arm row.png" />
@@ -87,12 +88,12 @@ function ResistanceBandBack() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='back-images' variant="top" src="/images/Back/back kneeling lat pull down.png" />
@@ -101,7 +102,7 @@ function ResistanceBandBack() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>

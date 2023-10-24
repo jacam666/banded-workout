@@ -1,13 +1,14 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import '../styles/AbsPage.css';
+import Button from "react-bootstrap/Button"
 
 function ResistanceBandAbs() {
     return (
         <div className='abs-container'>
             <div className='arm-page-header'>Abs</div>
             <div className='card-container row justify-content-evenly' >
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='abs-images' variant="top" src="/images/Abs/abs banded crunches.png" />
@@ -16,12 +17,12 @@ function ResistanceBandAbs() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='abs-images' variant="top" src="/images/Abs/abs kneeling ab crunch.png" />
@@ -30,12 +31,12 @@ function ResistanceBandAbs() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='abs-images' variant="top" src="/images/Abs/abs push throughs.png" />
@@ -44,12 +45,12 @@ function ResistanceBandAbs() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='abs-images' variant="top" src="/images/Abs/abs standing ab twist.png" />
@@ -58,12 +59,12 @@ function ResistanceBandAbs() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='abs-images' variant="top" src="/images/Abs/abs bicycle crunches.png" />
@@ -72,7 +73,7 @@ function ResistanceBandAbs() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import Button from "react-bootstrap/Button"
 import '../styles/ShoulderPage.css'
 
 
@@ -8,7 +9,7 @@ function ResistanceBandShoulders() {
         <div className='shoulders-container'>
             <div className='shoulder-page-header'>Shoulders</div>
             <div className='card-container row justify-content-evenly' >
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders reverse fly2.png" />
@@ -17,12 +18,12 @@ function ResistanceBandShoulders() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders lying front shoulder raise.png" />
@@ -31,12 +32,12 @@ function ResistanceBandShoulders() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders high row2.png" />
@@ -45,12 +46,12 @@ function ResistanceBandShoulders() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders front raises.png" />
@@ -59,26 +60,26 @@ function ResistanceBandShoulders() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
-                            <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders lateral raises3.png" />
+                            <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders lateral raises2.png" />
                             <Card.Body>
                                 <Card.Title>Lateral Raises</Card.Title>
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders lying lateral raise.png" />
@@ -87,12 +88,12 @@ function ResistanceBandShoulders() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
-                <div className='col-lg-2 col-md-4 col-sm-6'>
+                <div className='col-lg-3 col-md-4 col-sm-6'>
                     <div className="d-flex flex-column h-100">
                         <Card className="flex-fill mb-4" style={{ opacity: 0.9 }}>
                             <Card.Img className='shoulder-images' variant="top" src="/images/Shoulders/shoulders seated high row.png" />
@@ -101,7 +102,7 @@ function ResistanceBandShoulders() {
                                 <Card.Text>
 
                                 </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                <Button className='abs-card-button'>Add to Today's Workout</Button>
                             </Card.Body>
                         </Card>
                     </div>
