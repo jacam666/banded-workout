@@ -112,7 +112,7 @@ import {
     MDBNavbarNav,
     MDBNavbarItem,
     MDBNavbarLink,
-    MDBBtn,
+    //MDBBtn,
     MDBCollapse,
 } from 'mdb-react-ui-kit';
 
@@ -160,13 +160,16 @@ export default function ResponsiveNavbar() {
                         <MDBNavbarItem>
                             <MDBNavbarLink active aria-current='page' className='exercise-links' href='/Abs'>Abs</MDBNavbarLink>
                         </MDBNavbarItem>
+                        <MDBNavbarItem>
+                            <MDBNavbarLink active aria-current='page' className='exercise-links' href='#'>Training Diary</MDBNavbarLink>
+                        </MDBNavbarItem>
 
                     </MDBNavbarNav>
 
-                    <form className='d-flex input-group w-auto'>
+                    {/* <form className='d-flex input-group w-auto'>
                         <input type='search' className='form-control' placeholder='Search' aria-label='Search' />
                         <MDBBtn color='dark'>Search</MDBBtn>
-                    </form>
+                    </form> */}
                 </MDBCollapse>
             </MDBContainer>
         </MDBNavbar>
