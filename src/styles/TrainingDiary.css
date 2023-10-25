@@ -1,11 +1,11 @@
-.table-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 70vw;
+.training-container {
+    
     /* background-image: url('../../public/images/training diary background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; */
+}
+
+.input-container {
+    border: none;
 }
