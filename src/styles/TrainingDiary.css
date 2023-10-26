@@ -1,11 +1,45 @@
 .training-container {
-    
-    /* background-image: url('../../public/images/training diary background.png');
+    background-image: url('../../public/images/training diary background.png');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; */
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 .input-container {
-    border: none;
+    /* border: none; */
+    width: 20vw;
+}
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 80vw;
+    color: white;
+}
+.training-table-headings {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 576px) {
+    .table-container {
+        width: 100vw;
+        color: white;
+    }
+    .input-container {
+        width: 22vw;
+    }
+}
+@media screen and (max-width: 939px) {
+    .table-container {
+        width: 100vw;
+        color: white;
+    }
+    .input-container {
+        width: 22vw;
+    }
 }
