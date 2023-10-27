@@ -24,7 +24,6 @@ export default function TrainingDiaryPage() {
 
     return (
         <div className="training-container col-lg-12 col-md-12 col-sm-12">
-            
             <div className='table-container d-flex flex-column h-80'>
             <h1 className='training-diary-heading'>Training Log</h1>
             <h3 className='training-diary-date'>{currentDate}</h3>
