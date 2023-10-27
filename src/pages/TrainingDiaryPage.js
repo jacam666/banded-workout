@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 //import { MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
 import "../styles/TrainingDiary.css"
 
@@ -13,11 +13,21 @@ export default function TrainingDiaryPage() {
         setExerciseData(updatedData);
     };
 
+    const [currentDate, setCurrentDate] = useState('');
+
+    useEffect(() => {
+        const today = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = today.toLocaleDateString(undefined, options);
+        setCurrentDate(formattedDate);
+    }, []);
+
     return (
         <div className="training-container">
             
             <div className='table-container'>
             <h1 className='training-diary-heading'>Training Log</h1>
+            <h3 className='training-diary-date'>{currentDate}</h3>
                 <table className='table-contents-container'>
                     <thead>
                         <tr className='training-table-headings'>
