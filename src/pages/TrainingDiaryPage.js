@@ -15,7 +15,9 @@ export default function TrainingDiaryPage() {
 
     return (
         <div className="training-container">
+            
             <div className='table-container'>
+            <h1 className='training-diary-heading'>Training Log</h1>
                 <table className='table-contents-container'>
                     <thead>
                         <tr className='training-table-headings'>

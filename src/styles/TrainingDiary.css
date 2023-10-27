@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Montserrat:wght@100;400&display=swap');
+
 .training-container {
     background-image: url('../../public/images/training diary background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+}
+.training-diary-heading {
+    color: whitesmoke;
+    font-family: 'Bigelow Rules', serif, 'Montserrat', sans-serif;
+    font-size: 4rem;
 }
 
 .input-container {
@@ -36,13 +43,12 @@
 @media screen and (max-width: 576px) {
     .table-container {
         height: 70vh;
+        width:   100vw;
     }
     .table-contents-container {
         height: 80%;
     }
-    .input-container {
-        height: 100%;
-    }
+    
 }
 @media screen and (max-width: 939px) {
     .table-container {
