@@ -14,103 +14,58 @@ export default function TrainingDiaryPage() {
     };
 
     return (
-        /* <div className="training-container">
-             <MDBTable bordered>
-                 <MDBTableHead>
-                     <tr>
-                         <th scope='col'>Exercise</th>
-                         <th scope='col'>Weight</th>
-                         <th scope='col'>Sets</th>
-                         <th scope='col'>Reps</th>
-                     </tr>
-                 </MDBTableHead>
-                 <MDBTableBody>
-                     {exerciseData.map((exercise, rowIndex) => (
-                         <tr key={rowIndex}>
-                             <th scope='row'>{rowIndex + 1}</th>
-                             <td>
-                                 <input className='input-container'
-                                     type="text"
-                                     value={exercise.name}
-                                     onChange={(e) => handleCellChange(rowIndex, 'name', e.target.value)}
-                                     key={`name-${rowIndex}`}
-                                 />
-                             </td>
-                             <td>
-                                 <input className='input-container'
-                                     type="text"
-                                     value={exercise.weight}
-                                     onChange={(e) => handleCellChange(rowIndex, 'weight', e.target.value)}
-                                     key={`weight-${rowIndex}`}
-                                 />
-                             </td>
-                             <td>
-                                 <input className='input-container'
-                                     type="text"
-                                     value={exercise.sets}
-                                     onChange={(e) => handleCellChange(rowIndex, 'sets', e.target.value)}
-                                     key={`sets-${rowIndex}`}
-                                 />
-                             </td>
-                             <td>
-                                 <input className='input-container'
-                                     type="text"
-                                     value={exercise.reps}
-                                     onChange={(e) => handleCellChange(rowIndex, 'reps', e.target.value)}
-                                     key={`reps-${rowIndex}`}
-                                 />
-                             </td>
-                         </tr>
-                     ))}
-                 </MDBTableBody>
-             </MDBTable>
-         </div>
-         */
         <div className="training-container">
             <div className='table-container'>
-                <tr className='training-table-headings'>
-                    <th scope='col'>Exercise</th>
-                    <th scope='col'>Weight</th>
-                    <th scope='col'>Sets</th>
-                    <th scope='col'>Reps</th>
-                </tr>
-                {exerciseData.map((exercise, rowIndex) => (
-                    <tr key={rowIndex}>
-                        <th scope='row'>{rowIndex + 1}</th>
-                        <td>
-                            <input className='input-container'
-                                type="text"
-                                value={exercise.name}
-                                onChange={(e) => handleCellChange(rowIndex, 'name', e.target.value)}
-                                key={`name-${rowIndex}`}
-                            />
-                        </td>
-                        <td>
-                            <input className='input-container'
-                                type="text"
-                                value={exercise.weight}
-                                onChange={(e) => handleCellChange(rowIndex, 'weight', e.target.value)}
-                                key={`weight-${rowIndex}`}
-                            />
-                        </td>
-                        <td>
-                            <input className='input-container'
-                                type="text"
-                                value={exercise.sets}
-                                onChange={(e) => handleCellChange(rowIndex, 'sets', e.target.value)}
-                                key={`sets-${rowIndex}`}
-                            />
-                        </td>
-                        <td>
-                            <input className='input-container'
-                                type="text"
-                                value={exercise.reps}
-                                onChange={(e) => handleCellChange(rowIndex, 'reps', e.target.value)}
-                                key={`reps-${rowIndex}`}
-                            />
-                        </td>
-                    </tr>
-                ))}
+                <table className='table-contents-container'>
+                    <thead>
+                        <tr className='training-table-headings'>
+                        <th scope='col'></th>
+                            <th scope='col'>Exercise</th>
+                            <th scope='col'>Weight</th>
+                            <th scope='col'>Sets</th>
+                            <th scope='col'>Reps</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {exerciseData.map((exercise, rowIndex) => (
+                            <tr key={rowIndex}>
+                                <td>{rowIndex + 1}</td>
+                                <td>
+                                    <input className='input-container'
+                                        type="text"
+                                        value={exercise.name}
+                                        onChange={(e) => handleCellChange(rowIndex, 'name', e.target.value)}
+                                        key={`name-${rowIndex}`}
+                                    />
+                                </td>
+                                <td>
+                                    <input className='input-container'
+                                        type="text"
+                                        value={exercise.weight}
+                                        onChange={(e) => handleCellChange(rowIndex, 'weight', e.target.value)}
+                                        key={`weight-${rowIndex}`}
+                                    />
+                                </td>
+                                <td>
+                                    <input className='input-container'
+                                        type="text"
+                                        value={exercise.sets}
+                                        onChange={(e) => handleCellChange(rowIndex, 'sets', e.target.value)}
+                                        key={`sets-${rowIndex}`}
+                                    />
+                                </td>
+                                <td>
+                                    <input className='input-container'
+                                        type="text"
+                                        value={exercise.reps}
+                                        onChange={(e) => handleCellChange(rowIndex, 'reps', e.target.value)}
+                                        key={`reps-${rowIndex}`}
+                                    />
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
         </div>
     );
